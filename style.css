@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(to left, #141e30, #243b55);  /* Chrome 10-25, Safari 5.1-6 */
+    width: 500px;
+    margin: auto;
+    animation-name: changebackground;
+
+}
+.selections{
+    display: flex;
+    justify-content: center;
+}
+.selection{
+    height: 95px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 50px;
+    transition: 300ms;
+    padding-left: 40px;
+
+}
+.selection:hover{
+    transform: scale(1.3);
+    
+}
+.results{
+    background-color: aliceblue;
+    margin-top: 3px;
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+.results-score{
+    margin-left: 20px;
+    font-size: 100px;
+    color: brown;
+}
+.results-score{
+    opacity: 50%;
+}
+.results-selection.winner{
+    opacity: 100%;
+    font-size: 30px;
+}
+#div1{
+    background-color: brown;
+    width: 80px;
+    color: white;
+    width: 120px;
+    height: 20px;
+    padding-top: px;
+    text-align: center;
+    text-align: center;
+    border: 3px solid  #141e30;
+    
+    
+}
+
+
+
+#article1{
+    width: 500px;
+    height: 100px;
+    background-color: aliceblue;
+    
+}
+
+#article2{
+    width: 500px;
+    height: 650px;
+    background-color: aliceblue;
+    overflow: scroll;
+
+}
+#button1{
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    bottom: 7%; left: 34%; /* التحكم في الاتجاه */
+    border: 3px solid brown;
+    color: #141e30;
+}
